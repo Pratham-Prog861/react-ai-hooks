@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pratham-prog861/react-ai-hooks.git"
+    "url": "https://github.com/Pratham-Prog861/react-ai-hooks.git"
   },
   "scripts": {
     "build": "tsc",
