@@ -4,6 +4,17 @@
   "description": "A collection of React hooks for AI-powered features",
   "license": "ISC",
   "author": "Pratham Darji",
+  "keywords": [
+    "react",
+    "hooks",
+    "ai",
+    "artificial-intelligence",
+    "autocomplete",
+    "summary",
+    "suggestions",
+    "typescript",
+    "react-hooks"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
