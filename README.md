@@ -1,11 +1,11 @@
-# react-ai-hooks
+# react-hooks-ai
 
 A collection of React hooks for AI-powered features.
 
 ## Installation
 
 ```bash
-npm install react-ai-hooks
+npm install react-hooks-ai
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Provides auto-complete suggestions based on user input.
 
 ```tsx
 import { useState } from "react";
-import { useAIAutoComplete } from "react-ai-hooks";
+import { useAIAutoComplete } from "react-hooks-ai";
 
 function AutoCompleteComponent() {
   const [input, setInput] = useState("");
@@ -48,7 +48,7 @@ Generates a summary of the provided text.
 
 ```tsx
 import { useState } from "react";
-import { useAISummary } from "react-ai-hooks";
+import { useAISummary } from "react-hooks-ai";
 
 function SummaryComponent() {
   const [text, setText] = useState("");
@@ -79,7 +79,7 @@ function SummaryComponent() {
 Provides intelligent suggestions based on context.
 
 ```tsx
-import { useAISuggestions } from "react-ai-hooks";
+import { useAISuggestions } from "react-hooks-ai";
 
 function SuggestionsComponent({ context }: { context: string }) {
   const { suggestions, loading, error } = useAISuggestions(context);
